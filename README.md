@@ -12,4 +12,4 @@ Em andamento 🚀🚀🚀
 - **RabbitMQ**: Fila de mensagens para comunicação assíncrona entre os microserviços, permitindo o envio e recebimento de eventos de forma desacoplada.
 - **PostgreSQL**: Banco de dados relacional utilizado para armazenar informações dos usuários e dados financeiros.
 - **Docker**: Containerização dos microserviços e bancos de dados, garantindo que o ambiente de desenvolvimento e produção seja consistente e escalável.
-
+- **Java 21**: A aplicação foi desenvolvida utilizando **Java 21**, aproveitando as últimas melhorias e recursos da linguagem para melhorar a performance e a produtividade durante o desenvolvimento.
