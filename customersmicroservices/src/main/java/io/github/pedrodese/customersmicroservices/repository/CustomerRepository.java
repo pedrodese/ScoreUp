@@ -4,8 +4,7 @@ import io.github.pedrodese.customersmicroservices.domain.Customer;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.Optional;
-import java.util.UUID;
 
-public interface CustomerRepository extends JpaRepository<Customer, UUID> {
+public interface CustomerRepository extends JpaRepository<Customer, Long> {
     Optional<Customer> findByCpf(String cpf);
 }

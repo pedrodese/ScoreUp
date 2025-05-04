@@ -2,7 +2,6 @@ package io.github.pedrodese.customersmicroservices.application.controller;
 
 import io.github.pedrodese.customersmicroservices.application.representation.CreateCustomerRequest;
 import io.github.pedrodese.customersmicroservices.application.service.CustomerService;
-import io.github.pedrodese.customersmicroservices.domain.Customer;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.HttpStatus;
