@@ -1,0 +1,23 @@
+version: '3.8'
+
+services:
+  postgres:
+    image: postgres:13
+    container_name: customer-db
+    environment:
+      POSTGRES_USER: customer_user
+      POSTGRES_PASSWORD: customer_password
+      POSTGRES_DB: customer_db
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    networks:
+      - customer_network
+
+volumes:
+  postgres_data:
+
+networks:
+  customer_network:
+    driver: bridge
