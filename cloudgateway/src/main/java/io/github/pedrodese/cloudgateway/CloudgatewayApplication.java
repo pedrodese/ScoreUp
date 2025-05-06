@@ -18,6 +18,7 @@ public class CloudgatewayApplication {
 
 	@Bean
 	public RouteLocator routes(RouteLocatorBuilder builder){
+		//TODO: Add all the routes of the microservices in the gateway
 		return builder
 				.routes()
 					.route(r -> r.path("/customers/**").uri("lb://customersmicroservice"))
