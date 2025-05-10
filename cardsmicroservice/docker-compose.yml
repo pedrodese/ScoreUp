@@ -1,0 +1,23 @@
+version: '3.8'
+
+services:
+  postgres:
+    image: postgres:13
+    container_name: cards-db
+    environment:
+      POSTGRES_USER: cards_user
+      POSTGRES_PASSWORD: cards_password
+      POSTGRES_DB: cards_db
+    ports:
+      - "5433:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    networks:
+      - cards_network
+
+volumes:
+  postgres_data:
+
+networks:
+  cards_network:
+    driver: bridge

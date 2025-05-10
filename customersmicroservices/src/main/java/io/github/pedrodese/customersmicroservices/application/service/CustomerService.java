@@ -1,8 +1,8 @@
 package io.github.pedrodese.customersmicroservices.application.service;
 
-import io.github.pedrodese.customersmicroservices.application.exceptions.CustomerNotFoundException;
-import io.github.pedrodese.customersmicroservices.domain.Customer;
-import io.github.pedrodese.customersmicroservices.repository.CustomerRepository;
+import io.github.pedrodese.customersmicroservices.domain.exceptions.CustomerNotFoundException;
+import io.github.pedrodese.customersmicroservices.domain.model.Customer;
+import io.github.pedrodese.customersmicroservices.domain.repository.CustomerRepository;
 import jakarta.transaction.Transactional;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;

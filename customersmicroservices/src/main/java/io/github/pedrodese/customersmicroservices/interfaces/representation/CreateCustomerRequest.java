@@ -1,6 +1,6 @@
-package io.github.pedrodese.customersmicroservices.application.representation;
+package io.github.pedrodese.customersmicroservices.interfaces.representation;
 
-import io.github.pedrodese.customersmicroservices.domain.Customer;
+import io.github.pedrodese.customersmicroservices.domain.model.Customer;
 import lombok.Data;
 
 @Data

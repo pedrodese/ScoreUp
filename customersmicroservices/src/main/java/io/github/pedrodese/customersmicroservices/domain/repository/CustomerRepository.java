@@ -1,7 +1,8 @@
-package io.github.pedrodese.customersmicroservices.repository;
+package io.github.pedrodese.customersmicroservices.domain.repository;
 
-import io.github.pedrodese.customersmicroservices.domain.Customer;
 import org.springframework.data.jpa.repository.JpaRepository;
+
+import io.github.pedrodese.customersmicroservices.domain.model.Customer;
 
 import java.util.Optional;
 

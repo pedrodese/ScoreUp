@@ -1,4 +1,4 @@
-package io.github.pedrodese.customersmicroservices.domain;
+package io.github.pedrodese.customersmicroservices.domain.model;
 
 import jakarta.persistence.*;
 import lombok.Data;

@@ -1,7 +1,7 @@
-package io.github.pedrodese.customersmicroservices.application.controller;
+package io.github.pedrodese.customersmicroservices.interfaces.controller;
 
-import io.github.pedrodese.customersmicroservices.application.representation.CreateCustomerRequest;
 import io.github.pedrodese.customersmicroservices.application.service.CustomerService;
+import io.github.pedrodese.customersmicroservices.interfaces.representation.CreateCustomerRequest;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.HttpStatus;
@@ -22,7 +22,7 @@ public class CustomerController {
     @GetMapping("/status")
     public ResponseEntity<String> applicationStatus(){
         log.info("getting micro service status from clients");
-        return ResponseEntity.status(HttpStatus.OK).body("Service Online!");
+        return ResponseEntity.status(HttpStatus.OK).body("Customers Service Online!");
     }
 
     @PostMapping
