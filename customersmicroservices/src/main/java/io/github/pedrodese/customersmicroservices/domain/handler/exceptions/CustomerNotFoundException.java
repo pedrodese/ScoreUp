@@ -1,4 +1,4 @@
-package io.github.pedrodese.customersmicroservices.domain.exceptions;
+package io.github.pedrodese.customersmicroservices.domain.handler.exceptions;
 
 public class CustomerNotFoundException extends RuntimeException{
     public CustomerNotFoundException(String cpf){

@@ -1,6 +1,6 @@
 package io.github.pedrodese.customersmicroservices.application.service;
 
-import io.github.pedrodese.customersmicroservices.domain.exceptions.CustomerNotFoundException;
+import io.github.pedrodese.customersmicroservices.domain.handler.exceptions.CustomerNotFoundException;
 import io.github.pedrodese.customersmicroservices.domain.model.Customer;
 import io.github.pedrodese.customersmicroservices.domain.repository.CustomerRepository;
 import jakarta.transaction.Transactional;
